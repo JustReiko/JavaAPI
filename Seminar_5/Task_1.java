@@ -26,24 +26,24 @@ import java.util.*;
 public class Task_1 {
     public static void main(String[] args) {
         Map<String, List<String>> phoneBook = new HashMap<>();
-        phoneBook.put("Иван Иванов", Arrays.asList("181-811", "262-225"));
-        phoneBook.put("Светлана Петрова", Collections.singletonList("433-303"));
-        phoneBook.put("Кристина Белова", Collections.singletonList("344-344"));
-        phoneBook.put("Анна Мусина", Collections.singletonList("545-587"));
-        phoneBook.put("Анна Крутова", Collections.singletonList("612-426"));
-        phoneBook.put("Иван Юрин", Collections.singletonList("731-957"));
-        phoneBook.put("Петр Лыков", Collections.singletonList("158-887"));
-        phoneBook.put("Павел Чернов", Collections.singletonList("699-399"));
-        phoneBook.put("Петр Чернышов", Arrays.asList("987-874", "113-552"));
-        phoneBook.put("Мария Федорова", Collections.singletonList("811-722"));
-        phoneBook.put("Марина Светлова", Collections.singletonList("538-444"));
-        phoneBook.put("Мария Савина", Collections.singletonList("359-666"));
-        phoneBook.put("Мария Рыкова", Collections.singletonList("737-811"));
-        phoneBook.put("Марина Лугова", Arrays.asList("566-442", "753-275"));
-        phoneBook.put("Анна Владимирова", Collections.singletonList("141-033"));
-        phoneBook.put("Иван Мечников", Collections.singletonList("202-404"));
-        phoneBook.put("Петр Петин", Collections.singletonList("330-550"));
-        phoneBook.put("Иван Ежов", Collections.singletonList("454-656"));
+        phoneBook.put("Иван Иванов", Arrays.asList("111-222", "333-485"));
+        phoneBook.put("Светлана Петрова", Collections.singletonList("4363-373"));
+        phoneBook.put("Кристина Белова", Collections.singletonList("644-348"));
+        phoneBook.put("Анна Мусина", Collections.singletonList("577-587"));
+        phoneBook.put("Анна Крутова", Collections.singletonList("612-135"));
+        phoneBook.put("Иван Юрин", Collections.singletonList("758-987"));
+        phoneBook.put("Петр Лыков", Collections.singletonList("123-8456"));
+        phoneBook.put("Павел Чернов", Collections.singletonList("695-459"));
+        phoneBook.put("Петр Чернышов", Arrays.asList("586-123", "850-552"));
+        phoneBook.put("Мария Федорова", Collections.singletonList("852-785"));
+        phoneBook.put("Марина Светлова", Collections.singletonList("578-998"));
+        phoneBook.put("Мария Савина", Collections.singletonList("659-687"));
+        phoneBook.put("Мария Рыкова", Collections.singletonList("852-898"));
+        phoneBook.put("Марина Лугова", Arrays.asList("547-401", "785-470"));
+        phoneBook.put("Анна Владимирова", Collections.singletonList("874-963"));
+        phoneBook.put("Иван Мечников", Collections.singletonList("142-582"));
+        phoneBook.put("Петр Петин", Collections.singletonList("369-963"));
+        phoneBook.put("Иван Ежов", Collections.singletonList("147-741"));
 
         Map<String, Integer> nameCount = new HashMap<>();
         for (String name : phoneBook.keySet()) {
